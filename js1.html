@@ -11,22 +11,22 @@
     }
 
      function subtract () {
-      let a=  document.getElementById("fn").value;
-      let b = document.getElementById("sn").value;
+      let a=  document.getElementById("sfn").value;
+      let b = document.getElementById("ssn").value;
       let c = Number(a) - Number (b);
       document.getElementById('ans').innerHTML = c; 
     } 
 
     function divide () {
-     let a=  document.getElementById("fn").value;
-     let b = document.getElementById("sn").value;
+     let a=  document.getElementById("dfn").value;
+     let b = document.getElementById("dsn").value;
      let c = Number(a) / Number (b);
       document.getElementById('ans').innerHTML = c;
     }
 
     function multiply () {
-     let a=  document.getElementById("fn").value;
-     let b = document.getElementById("sn").value;
+     let a=  document.getElementById("mfn").value;
+     let b = document.getElementById("msn").value;
      let c = Number(a) * Number (b);
       document.getElementById('ans').innerHTML = c;
     }
@@ -39,31 +39,31 @@
     <p>
       First Number: <input id="fn"><br>
       Second Number: <input id="sn"><br>
-      <button onlclick="add ()"> Add the Numbers</button>
+      <button onclick="add ()"> Add the Numbers</button>
     </p>
     <p>
       Your Answer is: <span id="ans"> </span></p>
     
     <p>
-      First Number: <input id="fn"><br>
-      Second Number: <input id="sn"><br>
-      <button onlclick="subtract ()"> Subtract the Numbers</button>
+      First Number: <input id="sfn"><br>
+      Second Number: <input id="ssn"><br>
+      <button onclick="subtract ()"> Subtract the Numbers</button>
     </p>
      <p>
       Your Answer is: <span id="ans"> </span></p>
     
     <p>
-       First Number: <input id="fn"><br>
-      Second Number: <input id="sn"><br>
-      <button onlclick="divide ()"> Divide the Numbers</button>
+       First Number: <input id="dfn"><br>
+      Second Number: <input id="dsn"><br>
+      <button onclick="divide ()"> Divide the Numbers</button>
     </p>
     <p>
       Your Answer is: <span id="ans"> </span></p>
     
     <p>
-     First Number: <input id="fn"><br>
-     Second Number: <input id="sn"><br>
-      <button onlclick="multipy ()"> Multiply the Numbers</button>
+     First Number: <input id="mfn"><br>
+     Second Number: <input id="msn"><br>
+      <button onclick="multiply ()"> Multiply the Numbers</button>
     </p>
     
     <p>
